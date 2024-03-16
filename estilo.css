@@ -8,13 +8,21 @@ body{
     background-color: #333;
 }
 
-main{
+header{
+    background-color: #888;
+    width: 100vw;
+    height: 120px;
+}
+
+div .main{
     display: flex;
     gap: 12px;
+    /* margin: auto; */
+   
 }
 
 section{
-    width: 73%;
+    width: 55%;
     height: 300px;
     background-color: #444;
     position: relative;
@@ -76,7 +84,8 @@ p{
 }
 
 article{
-    width: 30%;
+    /* margin: auto; */
+    width: 26%;
     height: auto;
     background-color: #b37979;
 
